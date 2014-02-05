@@ -8,8 +8,6 @@ gem 'sqlite3'
 
 gem 'geocoder', '~> 0.9.11'
 
-gem 'protected_attributes'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -36,6 +34,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+	gem 'pry'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
